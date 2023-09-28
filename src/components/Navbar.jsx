@@ -1,7 +1,7 @@
 import {Link, NavLink} from 'react-router-dom'
 import Logo from '../images/logo.png'
 import {links} from '../data'
-// import {GoThreeBars} from 'react-icons/go'
+import {RxHamburgerMenu} from 'react-icons/rx'
 import './navbar.css'
 
 import React from 'react'
@@ -23,7 +23,7 @@ import React from 'react'
             }
             </ul>
             <button className="nav__toggle-btn">
-                {/* <GoThreeBars /> */}
+                <RxHamburgerMenu />
             </button>
         </div>
     )
